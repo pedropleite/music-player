@@ -67,9 +67,9 @@ let bars = [
 ]
 
 let bkg = [
-    "../BackgroundImages/Believer.jpg",
-    "../BackgroundImages/Creep.webp",
-    "../BackgroundImages/Enemy.webp",
+    "./BackgroundImages/Believer.jpg",
+    "./BackgroundImages/Creep.webp",
+    "./BackgroundImages/Enemy.webp",
     "./BackgroundImages/Human.jpg",
     "./BackgroundImages/Manchester.jpg",
     "./BackgroundImages/OverTheRainbow.webp",
