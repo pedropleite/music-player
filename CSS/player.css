@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: lemon;
+}
+
+.player{
+    width: 30vw;
+    height: 80vh;
+    background-color: rgb(25, 25, 25);
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid ;
+    border-color: white;
+}
+
+#darkMode{
+    position: absolute;
+    left: 98%;
+    top:2%;
+    width: 3.2vw;
+    background-color: white;
+    border-radius: 50%;
+    transform: translateX(-100%);
+}
+
+#icons { 
+    position: relative;
+    top: 82%;
+    left: 0%;
+}
+
+.icons2{
+    width: 2.6vw;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.play{
+    width: 3vw;
+    padding: 10px;
+}
+
+ .icons2:hover{
+    border: 0.1px solid black;
+    background-color: white;
+    border-radius: 40%;
+    background: var(--icons2-background-color);
+}
+
+#imagePlayer{
+    width: 80%;
+    height: 55%;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border: 1px solid white;
+}
+
+.description{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    font-weight: lighter;
+    color: white;
+}
+
+#singerPlayer{
+    top: 64%;
+}
+
+#audioPlayer{
+    width: 80%;
+    color: rgb(25, 25, 25);
+}
+
+.show{
+    width: 50vw;
+    height: 90vh;
+    background-color: rgb(25, 25, 25);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid white;
+}
+
+.progress-area{
+    height: 6px;
+    width: 90%;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.progress-area .progress-bar{
+    height: inherit;
+    width: 50%;
+    position: relative;
+    border-radius: inherit;
+    background-color: blue;
+}
+
+.progress-bar::before{
+    content:"";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background: black;
+    border-radius: inherit;
+    top: 50% ;
+    transform: translateY(-50%);
+    right: -5px;
+    background-color: inherit;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.progress-area:hover .progress-bar::before{
+    opacity: 1;
+}
+
+.timer span{
+    position: relative;
+    font-size: 0.8em;
+    font-weight: bolder;
+    top: 10%;
+    color: rgb(55, 55, 55);
+}
+
+.end{
+    left:82%
+}

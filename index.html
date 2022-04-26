@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/bars.css" rel="stylesheet">
+    <link href="./CSS/player.css" rel="stylesheet">
+    <link href="./CSS/fonts.css" rel="stylesheet">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <main>
+        <aside id="navegation">
+            <div id="topBar">
+                <span>PLAYLIST</span>
+            </div>
+            <div id="musics">
+                <div class="bars" id="bars1" indicie="-1">
+                    <img src="./MusicsImages/Believer.jpg" alt="">
+                    <p class="nameMusic">Believer</p>
+                    <p class="singers">Imagine Dragons</p>
+                </div>
+                <div class="bars" id="bars2" indicie="0">
+                    <img src="./MusicsImages/Creep.jpg" alt="">
+                    <p class="nameMusic">Creep</p>
+                    <p class="singers">Radiohead</p>
+                </div>
+                <div class="bars" id="bars3" indicie="1">
+                    <img src="./MusicsImages/Enemy.jpg" alt="">
+                    <p class="nameMusic">Enemy</p>
+                    <p class="singers">Imagine Dragons</p>
+                </div>
+                <div class="bars" id="bars4" indicie="2">
+                    <img src="./MusicsImages/Human.png" alt="">
+                    <p class="nameMusic">Human</p>
+                    <p class="singers">Rag N'Bone man</p>
+                </div>
+                <div class="bars" id="bars5" indicie="3">
+                    <img src="./MusicsImages/Manchester.webp" alt="">
+                    <p class="nameMusic">The Silence</p>
+                    <p class="singers">Manchester Orchestra</p>
+                </div>
+                <div class="bars" id="bars6" indicie="4">
+                    <img src="./MusicsImages/OverTheRainbow.jpg" alt="">
+                    <p class="nameMusic">Over The Rainbow</p>
+                    <p class="singers">Israel Kamakawiwo'ole</p>
+                </div>
+                <div class="bars" id="bars7" indicie="5">
+                    <img src="./MusicsImages/SleepOnTheFloor.jpg" alt="">
+                    <p class="nameMusic">Sleep On The Floor</p>
+                    <p class="singers">The Lumineers</p>
+                </div>
+                <div class="bars" id="bars8" indicie="6">
+                    <img src="./MusicsImages/take-me-to-church-ep.jpg" alt="">
+                    <p class="nameMusic">Take Me To Church</p>
+                    <p class="singers">Hozier</p>
+                </div>
+                <div class="bars" id="bars9" indicie="7">
+                    <img src="./MusicsImages/WayDownWeGo.jpg" alt="">
+                    <p class="nameMusic">Way Down We Go</p>
+                    <p class="singers">Kaleo</p>
+                </div>
+
+            </div>
+        </aside>
+        <input type="image" src="./IconsDark/changeDark.png" id="darkMode">
+        <aside id="removeClass" class="player" class="show">
+            <img src="./MusicsImages/Believer.jpg" id="imagePlayer" alt="">
+            <p id="titlePlayer" class="description">Believer</p>
+            <p id="singerPlayer" class="description">Imagine Dragons</p>
+            <div class="progress-area">
+                <div class="progress-bar"></div>
+                <div class="timer">
+                    <span class="begin">00:00</span>
+                    <span  class="end">03:40</span>
+                </div>
+            </div>
+            <audio autoplay src="./Musics/ImagineDragons-Believer.mp3" id="audioPlayer" type="audio/mpeg"></audio>
+            <div id="icons">
+                <input type="image" class="icons2" id="addList" src="./IconsDark/add-listDark.png">
+                <input type="image" class="icons2" id="back" src="./IconsDark/backDark.png">
+                <input type="image" class="icons2" id="play1" class="play" src="./IconsDark/pauseDark.png">
+                <input type="image" class="icons2" id="next" src="./IconsDark/nextDark.png">
+                <input type="image" class="icons2" src="./IconsDark/volumeDark.png">
+            </div>
+        </aside>
+        <source src="./BackgroundImages/">
+    </main>
+    <script src="./Scripts/script.js"></script>
+</body>
+
+</html>

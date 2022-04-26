@@ -1,0 +1,24 @@
+@font-face {
+    font-family: lemon;
+    src: url(../fonts/LEMONMILK-Bold.otf) format("Opentype");
+    font-weight:bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: lemon;
+    src: url(../fonts/LEMONMILK-Light.otf) format("Opentype");
+    font-weight:lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: lemon;
+    src: url(../fonts/LEMONMILK-Medium.otf) format("Opentype");
+    font-weight:medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: lemon;
+    src: url(../fonts/LEMONMILK-Regular.otf) format("Opentype");
+    font-weight:regular;
+    font-style: normal;
+}
